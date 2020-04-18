@@ -10,7 +10,7 @@
   "use_pypi_deployment_with_travis": "n",
   "add_pyup_badge": "n",
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3"],
-  "docstring_convention": "numpy",
+  "docstring_convention": ["numpy", "pep257"],
   "add_git_pre_commit_hook_black": "n",
   "add_git_pre_commit_hook_flake8": "n",
   "add_git_pre_commit_hook_isort": "n",
