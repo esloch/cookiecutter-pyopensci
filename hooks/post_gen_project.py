@@ -21,3 +21,6 @@ if __name__ == '__main__':
         and '{{ cookiecutter.add_git_pre_commit_hook_pydocstyle }}' == 'n'
     ):
         remove_file('.pre-commit-config.yaml')
+
+    if '{{ cookiecutter.add_git_pre_commit_hook_black }}' == 'n':
+        remove_file('pyproject.toml')
