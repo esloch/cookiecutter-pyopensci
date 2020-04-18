@@ -14,10 +14,10 @@ if __name__ == '__main__':
         remove_file('LICENSE')
 
     if (
-        cookiecutter.add_git_pre_commit_hook_isort == 'n'
-        and cookiecutter.add_git_pre_commit_hook_black == 'n'
-        and cookiecutter.add_git_pre_commit_hook_flake8 == 'n'
-        and cookiecutter.add_git_pre_commit_hook_mypy == 'n'
-        and cookiecutter.add_git_pre_commit_hook_pydocstyle == 'n'
+        '{{ cookiecutter.add_git_pre_commit_hook_isort }}' == 'n'
+        and '{{ cookiecutter.add_git_pre_commit_hook_black }}' == 'n'
+        and '{{ cookiecutter.add_git_pre_commit_hook_flake8 }}' == 'n'
+        and '{{ cookiecutter.add_git_pre_commit_hook_mypy }}' == 'n'
+        and '{{ cookiecutter.add_git_pre_commit_hook_pydocstyle }}' == 'n'
     ):
         remove_file('.pre-commit-config.yaml')
