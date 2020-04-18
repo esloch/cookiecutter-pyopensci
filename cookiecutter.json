@@ -15,5 +15,6 @@
   "add_git_pre_commit_hook_flake8": "n",
   "add_git_pre_commit_hook_isort": "n",
   "add_git_pre_commit_hook_mypy": "n",
-  "add_git_pre_commit_hook_pydocstyle": "n"
+  "add_git_pre_commit_hook_pydocstyle": "n",
+  "add_env_file": "n"
 }

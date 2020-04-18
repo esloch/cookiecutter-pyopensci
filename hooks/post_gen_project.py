@@ -24,3 +24,6 @@ if __name__ == '__main__':
 
     if '{{ cookiecutter.add_git_pre_commit_hook_black }}' == 'n':
         remove_file('pyproject.toml')
+
+    if '{{ cookiecutter.add_env_file }}' == 'n':
+        remove_file('environment.yml')
